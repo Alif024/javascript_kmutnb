@@ -5,3 +5,9 @@ function findPerimeter(length, width) {
 
 let result = findPerimeter(6, 7);
 console.log(result); // Output: 26
+
+let testIIFE = (function () {
+  return 5 + 5;
+})();
+
+console.log(testIIFE); // Output: 10

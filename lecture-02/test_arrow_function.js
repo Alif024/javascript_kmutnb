@@ -9,3 +9,7 @@ const xadd = (a, b) => {
 
 console.log(add(a, b)); // Output: 15
 console.log(xadd(a, b)); // Output: 15
+
+(() => {
+  console.log("Hello World");
+})(); // Output: Hello World
