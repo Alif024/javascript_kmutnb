@@ -1,3 +1,4 @@
+// Activity 2: Finding common elements in multiple arrays
 let value1 = ['Apple', 1, false];
 let value2 = ['Fries', 2, true, 'Apple',1];
 let value3 = ['Mars', 9, 'Apple',1];
@@ -10,3 +11,6 @@ value1.forEach(item1 => {
 })
 
 console.log(repeat);
+
+// Output:
+// ['Apple', 1]

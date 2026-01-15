@@ -1,15 +1,15 @@
 class Dog {
-	constructor(name) {
-		this._name = name;
-	}
+  constructor(name) {
+    this._name = name;
+  }
 
-	introduce() {
-		console.log(`This is ${this._name}!`);
-	}
+  introduce() {
+    console.log(`This is ${this._name}!`);
+  }
 
-	static bark() {
-		console.log("Woof!");
-	}
+  static bark() {
+    console.log("Woof!");
+  }
 }
 
 const myDog = new Dog("Buster");

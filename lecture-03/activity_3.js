@@ -1,3 +1,4 @@
+// Activity 3: Searching for an element in an array and printing vowels from a string
 const guests = ['Alice', 'Bob', 'Charlie', 'David'];
 
 let find = 'Charlie';
@@ -9,6 +10,8 @@ while (length < guests.length) {
   }
   length++;
 }
+// Output:
+// Found Charlie
 
 const message = "Hello World";
 let vowels = 'aeiouAEIOU';
@@ -17,3 +20,7 @@ for (let char of message) {
     console.log(char);
   }
 }
+// Output:
+// e
+// o
+// o
