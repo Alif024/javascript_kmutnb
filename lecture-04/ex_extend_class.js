@@ -18,5 +18,5 @@ const mySong = new Song({
   publishDate: "1975-10-31"
 });
 
-console.log(mySong.name);
-console.log(mySong);
+console.log(mySong.name);  // Output: Bohemian Rhapsody
+console.log(mySong);  // Output: Song { publishDate: '1975-10-31', name: 'Bohemian Rhapsody', artist: 'Queen' }

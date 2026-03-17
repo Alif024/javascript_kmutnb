@@ -6,6 +6,6 @@ class Song {
 }
 
 const mySong = new Song("Bohemian Rhapsody", "Queen");
-console.log(mySong.title);
-console.log(mySong);
-console.log(typeof mySong);
+console.log(mySong.title); // Output: Bohemian Rhapsody
+console.log(mySong); // Output: Song { title: 'Bohemian Rhapsody', artist: 'Queen' }
+console.log(typeof mySong); // Output: object

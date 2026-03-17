@@ -13,3 +13,10 @@ async function run() {
 console.log('Before run');
 run();
 console.log('After run');
+
+// Output:
+// Before run
+// Start!!
+// After run
+// (after 2 seconds)
+// Stop!!

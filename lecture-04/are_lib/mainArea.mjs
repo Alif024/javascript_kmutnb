@@ -1,3 +1,4 @@
+// mainArea.mjs
 import { areaCircle, areaSqr } from "./libArea.mjs";
 
 console.log(areaCircle(6));

@@ -15,5 +15,5 @@ class Dog {
 const myDog = new Dog("Buster");
 myDog.introduce();
 
-Dog.bark();
+Dog.bark(); // Output: Woof!
 // myDog.bark(); // This will cause an error

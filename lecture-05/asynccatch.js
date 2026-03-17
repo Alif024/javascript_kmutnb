@@ -18,4 +18,11 @@ async function msg() {
 msg();
 msg();
 msg();
-msg();
+
+// Possible Output:
+// Generated value: 1
+// Generated value: 2
+// Generated value: 3
+// Lucky!!
+// Nope! 😝
+// Lucky!!
